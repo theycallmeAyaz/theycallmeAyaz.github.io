@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Solo-learn certificate",
+        "by": "solo-learn",
+        "image": "./certification/uiux-skillsacademy.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://skillacademy.com/sertifikat/9Y4A6M5YDSZ72E"
+        }
+    }, {
+        "name": "Solo-learn certificate",
+        "by": "solo-learn",
+        "image": "./certification/web-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/QLZ92D242X5D"
+        }
+    }, {
+        "name": "Solo-learn certificate",
+        "by": "solo-learn",
+        "image": "./certification/js-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/NVP7KRLRGZR0"
+        }
+    }, {
+        "name": "Solo-learn certificate",
+        "by": "solo-learn",
+        "image": "./certification/fe-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/4EXG9YR7QZRL"
+        }
+    }, {
+        "name": "Solo-learn certificate",
+        "by": "solo-learn",
+        "image": "./certification/be-dicoding.png",
+        "category":"programming",
+        "links": {
+            "credentials": "https://www.dicoding.com/certificates/QLZ9274YMX5D"
+        }
+    }
+]

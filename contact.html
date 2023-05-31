@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="pp.js"></script>
+    <link rel="stylesheet" href="pp.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORT<span>FOLIO</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="services.html">SERVICES</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="skill.html">SKILLS</a>
+            <a href="contact.html">CONTACT</a>
+            
+         
+            
+        </nav>
+    </header>
+    <section class="contact-section" id="CONTACT">
+        <h2>Contact <span>Me!</span></h2>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-icons">
+          <a href="#" class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAg1JREFUWEftl8FtwjAUhn87yrmgcAGMChOUDdoNChMUJmg7QWGCdoPSCWCEdgM6ASAiuICgZ4u4ckiCiQJJSFCpFJ9Atp8//e+93w7BhQ1yYTzIgMIykikUW6Glab4BuAdQDduccH4MQnpGudxV4+ylzIF5THhQvO1CdI1KpeNu8gOtAVzFi5h49dhgrHYISLgTlPN8vlaTgKmP1WiUs3R95QY2GPOE8SvkAQEYUk1r5ovFcZpEq/m8am02fQD1uEBy/VpQ2i6USoM0oBazWYNY1juAnBovqkK7PYR0/N0QF3A5nXZAyEvQvqhAEwDXSrF9Es6bcetK1ovQ9b4A7hSYvdiRgGRRb3R9QIBbJdCYAs08Y8MoCq1Ms24Bsl48TxPAl8Z5I3ZRu9RBUgugXWCsdwxqYZotAsh62Q3Fc5am6TVQJIXURU4xSgDVo3qU82d/Cp2WfgXQUlB+BKUttTkSAcnATrvKbrtRDtqzhqCWBvBNNa3ht4/EQDbU1tDkXfegQNnWIP8HtPQH5fwpqBFSAXIhAuvDV1BhdZYqkK3WtoNkCj1rcJgmFGiEdWLqQG4KVWtwWzqKV50FSE2h/B1mBWpWzwoUxST9azKgMNX+rUJ/8YSdGIx5l+/+i/HImyUsBSfPH3vky6DO7S4vRr/hnXzmgY0TCNFTvzjs6yftU5LGy4DCFMwU+ncK/QI68jQ0rFwfUgAAAABJRU5ErkJggg=="/></i></a>
+          <a href="#" class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAArVJREFUWEftlltu00AUhs846TOkDg+VjkWyAtIdNDsoK6BdAc0KCCuAroB0BYQVkK4A7yBBGbUP1EreQ32qY2aqydjjcRQbBYl582U8n/9z+wUc2BIHxgP/JlAi5QQA3gHAJES8bFJVr0IGjOZoFKoUqACmcSgnUAHMTwB4bYSrEaUKgQpgbkLEi78RvhzQSspBCvDDUCKD0ddNQ+WAkuVyDEJ8YABB9O04is7tqiqAug4Rr+qovlIgIPoYRtG46KBEyoWZUyGit2KrAOc+8iDlhQD4ojZvhaskbM0p9Gu5PAuE+M6HE8BtF/HM/LNEys8A8N6VY1VUKHsnn9Tz+cv06GilN9mhSKSkpmCyvPXlR0o0fBVFMyNcMQC8UQpedhF5rNS2XEBmWLbyI5GSq+mT+pvZMeKwNhqXQg93d+ciTb+qgxYhYl8furq/76WPj3N9bSu4L1zZ6HguawLYCo3Vh+IQ8XRfEL3fDWQ0SAAoVanMluxqXZxAqz/Vxiq9UPSjEJFzK1tmLqlbcUo0sgpA+yi9zTuQy+3HtkrroNU67ZycMKSGsg/ksp2lABMBwP3reQYaIS2F8rZ7a0TEwWYz7PT7a0spHi9ayaJ0qmxdvEBm51Yn5f5QVR5Dsc21107WxQvEX7fmG9+aBJvNyFSKbyowdgccKm6edg/z5lQlIJXE9sfioNV6a+ZUldL3WZfKQArKHqxrIBqHUXRdBcbIO6d12QnIET6+vSCAcRfxxgdWq0L6MJXoHELT9GdgADANiKadKLq14Vxe3XxvZ4XMzcru8rAtLHnuSUC0piCIRZoOSAjTDheav72Assrijt5uX4EQXFm2Yq4IFsLwy3sDmScql8AdmpVwwZXa3VqBTDhW7ne7PRBC9ARRj58FQkw7iGzwnKsxIF+1uZ7/B/Ipd3AKPQHQjFI03xTl/QAAAABJRU5ErkJggg=="/><i class='bx bxs-phone'></i></a>
+          <a href="#" class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAaBJREFUWEftl8FtwkAQRf8YcU6QyQFYK9BBOggdJCXQQUIHpgKgA5eQEkgH6QBHXsEhWJCzhTdaYkdhZXtjMIhIOxcfZmf09OfLmiFcWNCF8eB/AYWcTwA8AOhWpKQPIs/udEZ5/XIVSmCeKgLZbyPEyHYcN6t3EdAGwNVJgADfZqxXFkikBTZjlXgt5Fzbs0ghbXFZ9QyQTjGjkFFIp4AubzxkFNIpoMsbDxmFdAro8mfz0Ho+v5YwjV5PLnW5cRagMAhcEH2vukSTon35pECrxeKR4niccQD4wrKGzXb7RZXqJEBrzu8EMBZAv2g8BMwIGDYYe0vfVQokfRLX61KRgQLyCSC9IORXPQw8K4qG0l+VAYHIhRDPAHbm/RVTK4rc1MwJtIRSz6eN9BeE+Dl98g6HPy356mgE8Fqr1QaNVsvPGtt6uexut1uPgPu8sVYF9B4LMbhxnJnunyPzH0HQt4g8ALfq+2OBdj6xGZOndekIOZfj3vPXMUB7PilNkxSo/ioNtOJ8VuSTg8ESfzUZy/xtVHIiHwqXVWeAdGp+AYdPMTSu6bl8AAAAAElFTkSuQmCC"/><i class='bx bx-bookmarks'></i></a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-ll">
+          <a href="#">Home</a>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-sl">
+          <a href="#" class="social-icon"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAR9JREFUWEftl2ENwkAMhb85QAIOkABIwAEOQAIoABwgARyAAxwADnAAaQLJOLpdj45lIdd/2/X63l679q6gY1Z0jA+ZUCwjTSs0AoYB6AnYx4i81psiNAVWQK8C2Ixjdqz5wvmTTJ0IZhyzYwVaHzgb0mHGMTtWgK6BWZcIHZQiPgJSUxcD0Q8Xr0LyBw2CqGNAiH5lXkJ3BdUV07UZyITCjCwCVeRZ8ym/uwJba0GlpkxLUQxL/joZKSZrg9AGkG5usjYILQEttSrBNghNgJ1JHkg+oIW1IKNDa4xlfGmet18RCuNqoyNV9beYrs3PEREeyFwxXZszIUMh5hqKiZQVygr9XR+S24XczcpmnuxaPXgVitVY8nomFJOscwo9AIvbKSX6datTAAAAAElFTkSuQmCC"/><i class='bx bxl-facebook-circle'></i></a>
+          <a href="#" class="social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmRJREFUWEftmE+uTUEQxn9vBYzEDCvACjA1wUjMGBtgBViBJzEywcwMicREghVgYMwSWAH5SZe0fv3n9rkn3MGr5OS+5HRXf/VV1dd13h47Zns7hodDQKOMzDB0BjgCnB85Ld6/B34AnzbZtwmg68Bd4OQmDjtrvgH3gGc9Pz1AR4EXCxgZ4ZaxK8D32sIeIDeeS5uM6mV6RgeW7w3MNN/O/On7wgwg0/QkbbgBPJ1F0Vhvyky/VvXbYsh8n0j5FtxSk4VrwHHgNfA4FfdpwDNOlY5rgOymj2mhDqV3qd0EHqXNb4CLQM7+2bL7aoDM97vkZNSFURfRgUZtAA/T/qvA86wOBePar62AawfmeW4BkkVrzN+aqTnWiL+m7BjwBXibFv9Mv/eTFPzx0QP0uXFgnlIduS7SKrvWR9iBlGwD6ENDg4zaQ1VfU6Ac5HY5daWq7lpBlbaIoRoga+ZB8q64lWDiYEEpqtodYL9AtBogAVxKaWrVT5wdTCqqpXSsBigOsYtkq2eycquRtv8KqNYcqwGKlLWKNWfsn6Rs54paBiJyxwfFr9b2iqa3fEvLFqWsevklsYy7LgDmwph336rC6GG9q8ORJFflvH5kxlZvja1TDM1erq6Py1UAPqUQ5mCnL9c1x4+aTk2PHzqJAa05ag5Esfc6vwst/L+sVSN5FLZ6zDdb4Pi9NdS7dcd1v1zzId+/dfZqASJZ8GPBOSs6sDVJdAHpSI2JL48FWKpbBGMGLIsDNhpR3eBmo3Po38acn/TT68CpfzZIt8/sF6xMhBwMA9qEoaGTNRccAhqxuXMM/QKHGaYlvExdSwAAAABJRU5ErkJggg=="/><i class='bx bxl-instagram'></i><i class='bx bxl-instagram'></i></a>
+        </div>
+        <div class="footer-if">
+          <p>&copy; 2023 KING KHAN. CODEHUB.</p>
+        </div>
+        <div class="cursor"></div>
+      </footer>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <style>
+        .cursor {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+    border-radius: 50%;
+    background: transparent;
+    pointer-events: none;
+    z-index: 999 ;
+    border: 3px solid #d92525;
+    transition: all 0.2s ease-out;
+    animation: moveCursor1 .5s infinite alternate;
+    box-shadow: 0 0  20px #ad2222,
+                0 0  60px #7d0202,
+                0 0  100px#540607;
+}
+
+.cursor:before{
+    content: '';
+    position: absolute;
+    background:#ec2a57;
+    width: 40px;
+    height: 40px;
+    opacity: 0.2;
+    transform: translate(-30%, -30%);
+    border-radius: 50%;
+}
+
+
+@keyframes moveCursor1 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.8);
+    }
+}
+
+@keyframes moveCursor2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+    </style>
+    <script>
+    const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+    });
+    
+    document.addEventListener('click', e => {
+        cursor.classList.add("expand");
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500);
+    });
+    
+    </script>
+    
+
+      
+      
+</body>
+</html>

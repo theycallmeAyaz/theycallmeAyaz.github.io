@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Web-developement 1",
+        "tech": "HTML & CSS",
+        "image": "./assets/img/project/form.png",
+        "desc":"This is my first web developement project.",
+        "links": {
+            "code": "https://github.com/WEB-DEVELOPMENT-SPRING-2023/a-1-set-exercises-theycallmeAyaz",
+            "demo": "https://theycallmeayaz.github.io/"
+        }
+    },
+    {
+        "title": "Vending Machine Python",
+        "tech": "Python",
+        "image": "./assets/img/project/proyek web dasar.png",
+        "desc":"This is my vending machine made in python language.",
+        "links": {
+            "code": "https://github.com/Code-Lab-1/utility-app-theycallmeAyaz",
+            "demo": "https://theycallmeayaz.github.io/"
+        }
+    },{
+        "title": "Python-Programming-skills-portfolio",
+        "tech": "Python",
+        "image": "./assets/img/project/bookshelf app.png",
+        "desc":"This was my first python programming project.",
+        "links": {
+            "demo": "https://github.com/Code-Lab-1/programming-skills-portfolio-theycallmeAyaz",
+            "code": "https://github.com/Code-Lab-1/programming-skills-portfolio-theycallmeAyaz"
+        }
+    },{
+        "title": "Portfolio Website",
+        "tech": "HTML, CSS, JS & BOOTSTRAP",
+        "image": "./assets/img/project/my_portfolio.png",
+        "desc": "This is my project for personal portfolio.",
+        "links": {
+            "demo": "https://theycallmeayaz.github.io/",
+            "code": "https://theycallmeayaz.github.io/"
+        }
+    }
+]

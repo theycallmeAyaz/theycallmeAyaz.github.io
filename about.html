@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="pp.js"></script>
+    <link rel="stylesheet" href="AboutStyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><span>@PORTFOLIO</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navigation">
+            <a href="index.html">HOME</a>
+        </nav>
+    </header>
+    <section class="about" id="about">
+        <div class="about-pic">
+       <img src="assets/img/profile_original.jpeg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="headingg">About <span>Me</span></h2>
+            <h3><span> A Front-End Web Developer,UI/UX Designer,Content Creator,Photographer</span></h3>
+            <p class="p1" >I'm Mohammad Ayaz
+                I am an 18-year-old student currently residing in the United Arab Emirates.
+                I am entering my second year of studies pursuing a BSc.Hons degree in Creative Computing. 
+                Apart from my academic pursuits,I have a deep passion for photography and enjoy capturing 
+                captivating moments through my lens.I find joy in exploring different techniques and styles 
+                to create visually engaging and meaningful photographs.As I continue my education, 
+                I aspire to further develop my skills in both creative computing and photography,combining 
+                the realms of technology and art to express myself in unique and innovative ways and 
+                I also do love making interactive websites.</p>
+        </div>
+        <a href="certificate.html" target="_blank" class="btn2">Read More</a>
+        <div class="cursor"></div>
+    </section>
+    <style>
+        
+    .cursor {
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%);
+        border-radius: 50%;
+        background: transparent;
+        pointer-events: none;
+        z-index: 999 ;
+        border: 3px rgb(39, 201, 222);
+        transition: all 0.2s ease-out;
+        animation: moveCursor1 .5s infinite alternate;
+        box-shadow: 0 0  20px rgb(39, 201, 222),
+                    0 0  60px rgb(39, 201, 222),
+                    0 0  100px rgb(39, 201, 222);
+    }
+    
+    .cursor:before{
+        content: '';
+        position: absolute;
+        background:rgb(39, 201, 222);
+        width: 40px;
+        height: 40px;
+        opacity: 0.2;
+        transform: translate(-30%, -30%);
+        border-radius: 50%;
+    }
+    body, html {
+  overflow: hidden;
+}
+    
+    
+    @keyframes moveCursor1 {
+        from {
+            transform: scale(1);
+        }
+    
+        to {
+            transform: scale(.8);
+        }
+    }
+    
+    @keyframes moveCursor2 {
+        0% {
+            transform: scale(1);
+        }
+    
+        50% {
+            transform: scale(2);
+        }
+    
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
+    }
+        </style>
+        <script>
+        const cursor = document.querySelector('.cursor');
+    
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+        });
+        
+        document.addEventListener('click', e => {
+            cursor.classList.add("expand");
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500);
+        });</script>
+    
+</body>
+</html>
