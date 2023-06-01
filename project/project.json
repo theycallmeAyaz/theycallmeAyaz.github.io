@@ -2,7 +2,7 @@
     {
         "title": "Web-developement 1",
         "tech": "HTML & CSS",
-        "image": "./assets/img/project/form.png",
+        "image": "./assets/img/project/Web.png",
         "desc":"This is my first web developement project.",
         "links": {
             "code": "https://github.com/WEB-DEVELOPMENT-SPRING-2023/a-1-set-exercises-theycallmeAyaz",
@@ -12,7 +12,7 @@
     {
         "title": "Vending Machine Python",
         "tech": "Python",
-        "image": "./assets/img/project/proyek web dasar.png",
+        "image": "./assets/img/project/vending_pic.png",
         "desc":"This is my vending machine made in python language.",
         "links": {
             "code": "https://github.com/Code-Lab-1/utility-app-theycallmeAyaz",
@@ -21,7 +21,7 @@
     },{
         "title": "Python-Programming-skills-portfolio",
         "tech": "Python",
-        "image": "./assets/img/project/bookshelf app.png",
+        "image": "./assets/img/project/python.png",
         "desc":"This was my first python programming project.",
         "links": {
             "demo": "https://github.com/Code-Lab-1/programming-skills-portfolio-theycallmeAyaz",

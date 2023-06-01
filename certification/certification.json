@@ -1,43 +1,43 @@
 [
     {
-        "name": "Solo-learn certificate",
+        "name": "HTML Solo-learn certificate",
         "by": "solo-learn",
-        "image": "./certification/uiux-skillsacademy.png",
+        "image": "./certification/cert_html.jpg",
         "category":"programming",
         "links": {
-            "credentials": "https://skillacademy.com/sertifikat/9Y4A6M5YDSZ72E"
+            "credentials": "https://theycallmeayaz.github.io/certificate.html"
         }
     }, {
-        "name": "Solo-learn certificate",
+        "name": "Introduction to CSS",
         "by": "solo-learn",
-        "image": "./certification/web-dicoding.png",
+        "image": "./certification/cert_css.jpg",
         "category":"programming",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/QLZ92D242X5D"
+            "credentials": "https://theycallmeayaz.github.io/certificate.html"
         }
     }, {
-        "name": "Solo-learn certificate",
+        "name": "Introduction to JavaScript",
         "by": "solo-learn",
-        "image": "./certification/js-dicoding.png",
+        "image": "./certification/cert_java.jpg",
         "category":"programming",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/NVP7KRLRGZR0"
+            "credentials": "https://theycallmeayaz.github.io/certificate.html"
         }
     }, {
-        "name": "Solo-learn certificate",
+        "name": "Introduction to Python",
         "by": "solo-learn",
-        "image": "./certification/fe-dicoding.png",
+        "image": "./certification/cert_py.png",
         "category":"programming",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/4EXG9YR7QZRL"
+            "credentials": "https://theycallmeayaz.github.io/certificate.html"
         }
     }, {
-        "name": "Solo-learn certificate",
-        "by": "solo-learn",
-        "image": "./certification/be-dicoding.png",
+        "name": "Block coding",
+        "by": "Hour of code",
+        "image": "./certification/cert_extra.jpg",
         "category":"programming",
         "links": {
-            "credentials": "https://www.dicoding.com/certificates/QLZ9274YMX5D"
+            "credentials": "https://theycallmeayaz.github.io/certificate.html"
         }
     }
 ]

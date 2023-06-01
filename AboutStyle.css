@@ -312,7 +312,7 @@ transform: scale(1);
 }
 .contact-section {
     padding: 50px;
-    background-color: #121212;
+    background-color: white;
     text-align: center;
   }
   
@@ -361,7 +361,7 @@ transform: scale(1);
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    color: #f5efef;
+    color: black;
   }
   
   .icon {
@@ -403,7 +403,7 @@ transform: scale(1);
   .footer {
     background-color: #333;
     color: #fff;
-    padding: 5px;
+    padding: 2.5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
